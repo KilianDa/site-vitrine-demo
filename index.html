@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza de Papa - Pizzeria artisanale</title>
+    <meta
+      name="description"
+      content="Pizza de Papa, pizzeria artisanale au feu de bois. Pâtes fraîches, ingrédients de qualité, sur place, à emporter ou en livraison."
+    />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Pizza de Papa - Pizzeria artisanale" />
+    <meta
+      property="og:description"
+      content="Pizza de Papa, pizzeria artisanale au feu de bois. Pâtes fraîches, ingrédients de qualité, sur place, à emporter ou en livraison."
+    />
+    <meta property="og:image" content="pizzaiolo-avec-son-four.jpeg" />
+    <meta property="og:url" content="" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Pizza de Papa" />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Pizza de Papa - Pizzeria artisanale" />
+    <meta
+      name="twitter:description"
+      content="Pizza de Papa, pizzeria artisanale au feu de bois. Pâtes fraîches, ingrédients de qualité, sur place, à emporter ou en livraison."
+    />
+    <meta name="twitter:image" content="pizzaiolo-avec-son-four.jpeg" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <a href="#hero" class="brand">
+          <img src="logo.png" alt="Logo Pizza de Papa" class="brand__logo" />
+          <span class="brand__text">
+            <span class="brand__title">Pizza de Papa</span>
+            <span class="brand__subtitle">Pizzeria artisanale au feu de bois</span>
+          </span>
+        </a>
+        <nav class="nav">
+          <a href="#about">La maison</a>
+          <a href="#menu">La carte</a>
+          <a href="#gallery">Ambiance</a>
+          <a href="#contact">Contact</a>
+          <a href="#contact" class="btn btn--small btn--outline">Commander</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section id="hero" class="hero">
+        <div class="hero__overlay"></div>
+        <picture>
+          <source srcset="pizzaiolo-avec-son-four.jpeg" media="(min-width: 768px)" />
+          <img
+            src="pizzaiolo-avec-son-four.jpeg"
+            alt="Pizzaiolo préparant une pizza devant un four à bois"
+            class="hero__bg"
+          />
+        </picture>
+        <div class="container hero__content">
+          <div class="hero__text">
+            <h1>La pizza comme à la maison, mais en mieux.</h1>
+            <p>
+              Chez <strong>Pizza de Papa</strong>, on pétrit chaque pâte à la main, on
+              cuit au feu de bois et on choisit des produits frais, de saison. Simple,
+              généreux et surtout, fait avec amour.
+            </p>
+            <div class="hero__actions">
+              <a href="#menu" class="btn">Découvrir la carte</a>
+              <a href="#contact" class="btn btn--outline">Commander / Réserver</a>
+            </div>
+            <div class="hero__infos">
+              <span>🔥 Four à bois traditionnel</span>
+              <span>🥗 Options végétariennes</span>
+              <span>🚚 À emporter & livraison</span>
+            </div>
+          </div>
+          <div class="hero__card">
+            <h2>Horaires</h2>
+            <ul>
+              <li><strong>Du mardi au samedi</strong> : 11h45 - 14h00 / 18h30 - 22h30</li>
+              <li><strong>Dimanche</strong> : 18h30 - 22h00</li>
+              <li><strong>Lundi</strong> : fermé (Papa se repose)</li>
+            </ul>
+            <p class="hero__phone">
+              Réservations & commandes<br />
+              <a href="tel:+33409080706">04 09 08 07 06</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- À propos -->
+      <section id="about" class="section section--light">
+        <div class="container section__grid">
+          <div class="section__text">
+            <h2>La pizza de famille, pour tout le quartier.</h2>
+            <p>
+              Pizza de Papa, c’est l’histoire d’une passion transmise de génération en
+              génération. Une pâte qui repose longuement, une sauce tomate maison, et
+              des produits sourcés chez des producteurs locaux.
+            </p>
+            <p>
+              Que ce soit pour un déjeuner rapide, un match entre amis ou un repas en
+              famille, on met la même énergie à préparer chaque pizza comme si c’était
+              pour la maison.
+            </p>
+            <div class="badges">
+              <span class="badge">Pâte maison 48h de levain</span>
+              <span class="badge">Cuisson au feu de bois</span>
+              <span class="badge">Produits frais & locaux</span>
+            </div>
+          </div>
+          <div class="section__image">
+            <img
+              src="interieur-du-four.jpeg"
+              alt="Intérieur d'un four à pizza traditionnel"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Carte (exemple de mise en page) -->
+      <section id="menu" class="section">
+        <div class="container">
+          <div class="section__header">
+            <h2>Un aperçu de la carte</h2>
+            <p>
+              Voici un exemple de structure de carte que l’on pourrait mettre en forme
+              sur ton futur site. Les prix, recettes et catégories seront bien sûr
+              adaptés à ton offre réelle.
+            </p>
+          </div>
+          <div class="menu">
+            <div class="menu__column">
+              <h3>Classiques</h3>
+              <ul>
+                <li>
+                  <div>
+                    <span class="menu__item-title">Margherita</span>
+                    <span class="menu__item-desc">
+                      Sauce tomate maison, mozzarella fior di latte, basilic frais.
+                    </span>
+                  </div>
+                  <span class="menu__item-price">9,50€</span>
+                </li>
+                <li>
+                  <div>
+                    <span class="menu__item-title">Reine</span>
+                    <span class="menu__item-desc">
+                      Jambon cuit, champignons frais, mozzarella, olives.
+                    </span>
+                  </div>
+                  <span class="menu__item-price">11,50€</span>
+                </li>
+                <li>
+                  <div>
+                    <span class="menu__item-title">4 Fromages</span>
+                    <span class="menu__item-desc">
+                      Mozzarella, gorgonzola, parmesan, chèvre frais.
+                    </span>
+                  </div>
+                  <span class="menu__item-price">12,50€</span>
+                </li>
+              </ul>
+            </div>
+            <div class="menu__column">
+              <h3>Signatures de Papa</h3>
+              <ul>
+                <li>
+                  <div>
+                    <span class="menu__item-title">Papa Classico</span>
+                    <span class="menu__item-desc">
+                      Tomate, mozzarella, saucisse italienne, poivrons rôtis, oignons
+                      rouges.
+                    </span>
+                  </div>
+                  <span class="menu__item-price">13,50€</span>
+                </li>
+                <li>
+                  <div>
+                    <span class="menu__item-title">Mama Verde</span>
+                    <span class="menu__item-desc">
+                      Base crème, mozzarella, courgettes grillées, artichauts, pesto de
+                      basilic.
+                    </span>
+                  </div>
+                  <span class="menu__item-price">13,90€</span>
+                </li>
+                <li>
+                  <div>
+                    <span class="menu__item-title">Diavola</span>
+                    <span class="menu__item-desc">
+                      Tomate, mozzarella, salami piquant, piment frais.
+                    </span>
+                  </div>
+                  <span class="menu__item-price">13,90€</span>
+                </li>
+              </ul>
+            </div>
+            <div class="menu__column menu__column--image">
+              <button
+                type="button"
+                class="menu__card-button"
+                aria-label="Afficher la carte des pizzas en grand"
+                data-open-card-modal
+              >
+                <img src="carte.jpg" alt="Exemple de carte de pizzas" />
+              </button>
+              <button
+                type="button"
+                class="btn btn--outline menu__card-cta"
+                data-open-card-modal
+              >
+                Voir la carte en grand
+              </button>
+              <p class="menu__note">
+                Sur la version finale, on pourra intégrer ta vraie carte, un PDF
+                téléchargeable ou un module de commande en ligne.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Galerie / ambiance -->
+      <section id="gallery" class="section section--light">
+        <div class="container">
+          <div class="section__header">
+            <h2>Une ambiance chaleureuse</h2>
+            <p>
+              Quelques visuels pour donner une idée de l’ambiance que l’on peut
+              transmettre sur un site vitrine : four à bois, pizzas généreuses,
+              détails de salle…
+            </p>
+          </div>
+          <div class="gallery">
+            <div class="gallery__item gallery__item--large">
+              <img src="pizzas.jpg" alt="Assortiment de pizzas" />
+            </div>
+            <div class="gallery__item">
+              <img src="interieur-du-four.jpeg" alt="Four à pizza traditionnel" />
+            </div>
+            <div class="gallery__item">
+              <img src="pizzaiolo-avec-son-four.jpeg" alt="Pizzaiolo au travail" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <div class="container section__grid section__grid--reverse">
+          <div class="section__text">
+            <h2>Contact & commandes</h2>
+            <p>
+              Cette zone pourra être reliée à un vrai formulaire (envoi d’e-mail,
+              réservation, commande click & collect...). Pour la démo, voici un simple
+              formulaire de contact.
+            </p>
+            <form class="contact-form">
+              <div class="contact-form__row">
+                <div class="contact-form__field">
+                  <label for="name">Nom</label>
+                  <input type="text" id="name" name="name" placeholder="Votre nom" />
+                </div>
+                <div class="contact-form__field">
+                  <label for="email">E-mail</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="vous@example.com"
+                  />
+                </div>
+              </div>
+              <div class="contact-form__field">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="Parlez-nous de votre projet ou de votre commande..."
+                ></textarea>
+              </div>
+              <button type="submit" class="btn contact-form__submit">
+                Envoyer (démo)
+              </button>
+              <p class="contact-form__note">
+                Sur le site final, ce bouton pourra envoyer un e-mail, enregistrer une
+                demande ou ouvrir WhatsApp, selon ce que tu souhaites.
+              </p>
+            </form>
+          </div>
+          <div class="section__image section__image--card">
+            <div class="contact-card">
+              <h3>Infos pratiques</h3>
+              <p>
+                <strong>Adresse</strong><br />
+                123 Rue de la Pizza, 00000 Ta Ville
+              </p>
+              <p>
+                <strong>Téléphone</strong><br />
+                <a href="tel:+33409080706">04 09 08 07 06</a>
+            </p>
+              <p>
+                <strong>Services</strong><br />
+                Sur place, à emporter, livraison (selon zones).
+              </p>
+              <p class="contact-card__highlight">
+                On peut intégrer ici un plan Google Maps, des boutons de
+                commande&nbsp;UberEats / Deliveroo, etc.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Lightbox carte en grand -->
+    <div class="card-lightbox" id="card-lightbox" aria-hidden="true">
+      <div class="card-lightbox__backdrop" data-close-card-modal></div>
+      <div class="card-lightbox__dialog" role="dialog" aria-modal="true">
+        <button
+          type="button"
+          class="card-lightbox__close"
+          aria-label="Fermer la carte en grand"
+          data-close-card-modal
+        >
+          ×
+        </button>
+        <img src="carte.jpg" alt="Carte des pizzas en grand" />
+      </div>
+    </div>
+
+    <script>
+      // Modale "carte en grand"
+      (function () {
+        const modal = document.getElementById("card-lightbox");
+        if (!modal) return;
+        const openers = document.querySelectorAll("[data-open-card-modal]");
+        const closers = modal.querySelectorAll("[data-close-card-modal]");
+        const image = modal.querySelector("img");
+
+        function openModal() {
+          modal.setAttribute("aria-hidden", "false");
+          modal.classList.remove("card-lightbox--zoomed");
+          document.body.style.overflow = "hidden";
+        }
+
+        function closeModal() {
+          modal.setAttribute("aria-hidden", "true");
+          modal.classList.remove("card-lightbox--zoomed");
+          document.body.style.overflow = "";
+        }
+
+        function toggleZoom(event) {
+          // Empêche le clic sur l'image de fermer la modale
+          event.stopPropagation();
+          modal.classList.toggle("card-lightbox--zoomed");
+        }
+
+        openers.forEach((btn) => btn.addEventListener("click", openModal));
+        closers.forEach((el) => el.addEventListener("click", closeModal));
+
+        if (image) {
+          image.addEventListener("click", toggleZoom);
+        }
+
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "Escape") {
+            closeModal();
+          }
+        });
+      })();
+
+      // Animations déclenchées au scroll
+      (function () {
+        const revealElements = [];
+
+        const heroContent = document.querySelector(".hero__content");
+        if (heroContent) {
+          revealElements.push(heroContent);
+        }
+
+        document
+          .querySelectorAll(".section")
+          .forEach((el) => revealElements.push(el));
+
+        if (!revealElements.length) return;
+
+        // Fallback si IntersectionObserver n'est pas supporté
+        if (!("IntersectionObserver" in window)) {
+          revealElements.forEach((el) => el.classList.add("is-visible"));
+          return;
+        }
+
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("is-visible");
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          {
+            threshold: 0.18,
+          }
+        );
+
+        revealElements.forEach((el) => observer.observe(el));
+      })();
+    </script>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <img src="logo.png" alt="Logo Pizza de Papa" class="footer__logo" />
+          <span>Pizza de Papa © 2025 - Site vitrine démo</span>
+        </div>
+        <div class="footer__links">
+          <a href="#hero">Accueil</a>
+          <a href="#menu">La carte</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+

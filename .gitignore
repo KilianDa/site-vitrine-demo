@@ -1,0 +1,15 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Éditeurs
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
+
